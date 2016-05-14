@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">callcall</string>
+    <string name="incoming_call">Incoming call from %1$s</string>
+</resources>

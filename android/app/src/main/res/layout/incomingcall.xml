@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/callcall_purple"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/remoteUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call username"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/call_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call number"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:layout_margin="10dp"/>
+
+    <ImageView
+        android:id="@+id/call_portrait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/i397"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:id="@+id/call_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0:00"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:layout_margin="10dp" />
+
+    <LinearLayout
+        android:id="@+id/buttonPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/answerButton"
+            android:layout_width="@dimen/medium_sized_button"
+            android:layout_height="@dimen/medium_sized_button"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_accept"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/declineButton"
+            android:layout_width="@dimen/medium_sized_button"
+            android:layout_height="@dimen/medium_sized_button"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_hangup"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>
